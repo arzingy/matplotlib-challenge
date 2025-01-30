@@ -1,5 +1,5 @@
 # Matplotlib Assignment
-Here are the screenshots of the results of different stages of my work on this challenge.
+Here are the screenshots and the analysis of the results of different stages of my work on this challenge.
 
 ## DataFrame with merged data (first 5 rows)
 <figure>
@@ -58,13 +58,13 @@ using groupby, I also created it in a ceparate cell. In that cell I also got Ser
   src="/Pymaceuticals/screenshots/boxplot.png">
 </figure>
 
-## Line plot showing the tumor volume vs. time point for one mouse treated with Capomulin
+## Line plot showing the tumor volume vs time point for one mouse treated with Capomulin
 <figure>
   <img
   src="/Pymaceuticals/screenshots/line_chart_capomulin.png">
 </figure>
 
-## Scatter plot showing average tumor volume vs. mouse weight for the Capomulin regimen
+## Scatter plot showing average tumor volume vs mouse weight for the Capomulin regimen
 <figure>
   <img
   src="/Pymaceuticals/screenshots/scatter_chart_capomulin.png">
@@ -75,3 +75,12 @@ using groupby, I also created it in a ceparate cell. In that cell I also got Ser
   <img
   src="/Pymaceuticals/screenshots/correlation_linear_regression.png">
 </figure>
+
+## Analysis
+- As can be seen in [Pie Chart](#pie-chart-showing-the-distribution-of-unique-female-versus-male-mice), there are almost the same numbers of male and female mice that participated in this study.
+- As can be seen in [The outliers for each treatment group](#the-outliers-for-each-treatment-group), there was one potential outlier in the final tumor volume for mice treated with Infubinol.
+- As can be seen in [Line Plot](#line-plot-showing-the-tumor-volume-vs-time-point-for-one-mouse-treated-with-capomulin), the tumor volume for mice b128 and l509 decreased during the study, but then increased after around 35th day.
+- As can be seen in [The correlation coefficient and linear regression](#the-correlation-coefficient-and-linear-regression-model-for-mouse-weight-and-average-tumor-volume-for-the-capomulin-regimen), the bigger the weight, the bigger the tumor volume. The correlation coefficient is 0.84, which shows strong positive correlation.
+
+## Summary
+As we can see, the tables and charts I've generated can help compare the performance of Pymaceuticals’ drug of interest, Capomulin, against the other treatment regimens. 
